@@ -13,7 +13,7 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background: rgb(0, 0, 0);
+      background: rgb(80, 70, 127);
       display: grid;
       place-content: center;
     }
@@ -38,9 +38,18 @@
 
       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
         <ul>
-          <li><a href="#">item 1</a></li>
-          <li><a href="#">item 2</a></li>
-          <li><a href="#">item 3</a></li>
+          <li><a href="TP 2 hebergement/cats/index.html">Les chats</a>
+            <ul>
+              <li><a href="TP 2 hebergement/cats/chat-1.html">chat 1</a></li>
+              <li><a href="TP 2 hebergement/cats/chat-2.html">chat 2</a></li>
+            </ul>
+          </li>
+          <li><a href="TP 2 hebergement/dogs/index.html">Les chiens</a>
+            <ul>
+              <li><a href="TP 2 hebergement/dogs/chien-1.html">chien 1</a></li>
+              <li><a href="TP 2 hebergement/dogs/chien-2.html">chien 2</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
@@ -52,5 +61,25 @@
       nemo aliquid pariatur quam voluptates animi laudantium, aperiam
       consectetur nobis enim.
     </p>
+    
+    <dl>
+      <dt>Lorem.</dt>
+      <dd>Lorem ipsum dolor sit amet.</dd>
+    </dl>
+    <dl>
+      <dt>Impedit.</dt>
+      <dd>Dolorem, cumque? Delectus, reprehenderit soluta?</dd>
+    </dl>
+    <dl>
+      <dt>Animi.</dt>
+      <dd>Vitae itaque exercitationem velit quaerat?</dd>
+    </dl>
+
+
+    
+    <img class="media media--fullwidth" src="/TP 2 hebergement/public/img/cats/Cat_pause.jpg" alt="chat 1">
+    <img class="media--fullwidth" src="/TP 2 hebergement/public/img/cats/Felis_catus-cat_on_snow.jpg" alt="chat 2">
+    <img class="media--fullwidth" src="/TP 2 hebergement/public/img/dogs/20160303_-_Canis_lupus_familiaris_1.jpg" alt="chien 1">
+    <img class="media--fullwidth" src="/TP 2 hebergement/public/img/dogs/Canis_lupus_familiaris_-_Flickr_-_aspidoscelis.jpg" alt="chien 2">
   </body>
 </html>
